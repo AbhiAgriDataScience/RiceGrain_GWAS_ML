@@ -1,0 +1,49 @@
+name: gwas_rice_env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+  - r
+dependencies:
+  # Python
+  - python=3.9
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - xgboost
+  - cmdstanpy
+  - joblib
+  - jupyter
+  - ipykernel
+  - scipy
+  - shap
+  - plotly
+
+  # R and Bioconductor
+  - r-base=4.2
+  - r-tidyverse
+  - r-data.table
+  - r-ggplot2
+  - r-stringr
+  - r-ggraph
+  - r-igraph
+  - r-rcolorbrewer
+  - r-devtools
+  - r-clusterprofiler
+  - r-biomart
+  - r-dose
+  - r-enrichplot
+  - r-stringdb
+  - bioconductor-org.osativa.eg.db
+  - GAPIT
+
+  # Bash tools
+  - plink
+  - bcftools
+  - vcftools
+  - tassel
+  - coreutils
+  - wget

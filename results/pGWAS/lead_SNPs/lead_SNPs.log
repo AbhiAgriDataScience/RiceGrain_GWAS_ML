@@ -1,0 +1,27 @@
+PLINK v1.90b6.21 64-bit (19 Oct 2020)
+Options in effect:
+  --bfile data/GSTP007.bed/1495Hybrid_MSUv7
+  --clump pGWAS/Grain_weight_GWAS_prepared_for_PLINK.csv
+  --clump-kb 250
+  --clump-p1 0.001
+  --clump-r2 0.1
+  --out lead_SNPs
+
+Hostname: Abhisheks-MacBook-Pro.local
+Working directory: /Users/abhi/Documents/R/GWAS_rice
+Start time: Wed Mar 12 12:51:49 2025
+
+Random number seed: 1741809109
+8192 MB RAM detected; reserving 4096 MB for main workspace.
+1651507 variants loaded from .bim file.
+1495 people (0 males, 0 females, 1495 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to lead_SNPs.nosex .
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 1495 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+1651507 variants and 1495 people pass filters and QC.
+Note: No phenotypes present.
+--clump: 9 clumps formed from 1178 top variants.
+Results written to lead_SNPs.clumped .
+
+End time: Wed Mar 12 12:51:51 2025

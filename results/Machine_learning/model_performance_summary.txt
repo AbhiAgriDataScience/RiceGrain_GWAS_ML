@@ -1,0 +1,63 @@
+Model Performance Summary (RMSE and R²):
+==================================================
+
+Bayesian Ridge:
+  - RMSE: 0.8190
+  - R²:   0.3342
+
+BayesA:
+  - RMSE: 0.9791
+  - R²:   0.0484
+
+BayesB:
+  - RMSE: 0.8742
+  - R²:   0.2414
+
+Bayesian LASSO:
+  - RMSE: 0.8351
+  - R²:   0.3076
+
+Ridge Regression (G-BLUP):
+  - RMSE: 0.7525
+  - R²:   0.4332
+
+Kernel Ridge Regression (G-BLUP):
+  - RMSE: 0.7300
+  - R²:   0.4665
+
+Random Forest:
+  - RMSE: 0.7757
+  - R²:   0.4027
+
+XGBoost:
+  - RMSE: 0.7596
+  - R²:   0.4272
+
+Random Forest + Interactions:
+  - RMSE: 0.7835
+  - R²:   0.3906
+
+XGBoost + Interactions:
+  - RMSE: 0.7801
+  - R²:   0.3960
+
+Random Forest (Top SNPs):
+  - RMSE: 0.7739
+  - R²:   0.4054
+
+XGBoost (Top SNPs):
+  - RMSE: 0.7628
+  - R²:   0.4224
+
+Random Forest (One-Hot Encoded SNPs):
+  - RMSE: 0.7780
+  - R²:   0.3991
+
+XGBoost (One-Hot Encoded SNPs):
+  - RMSE: 0.7660
+  - R²:   0.4176
+
+Support Vector Machine:
+  - RMSE: 0.7892
+  - R²:   0.3817
+

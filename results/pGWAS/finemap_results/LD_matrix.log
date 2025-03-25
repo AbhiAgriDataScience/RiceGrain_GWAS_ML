@@ -1,0 +1,26 @@
+PLINK v1.9.0-b.7.7 64-bit (22 Oct 2024)
+Options in effect:
+  --bfile data/GSTP007.bed/1495Hybrid_MSUv7
+  --extract pGWAS/finemap_results/lead_snps.txt
+  --out pGWAS/finemap_results/LD_matrix
+  --r2 square gz
+
+Hostname: Abhisheks-MacBook-Pro.local
+Working directory: /Users/abhi/Documents/R/GWAS_rice
+Start time: Wed Mar 12 15:26:24 2025
+
+Random number seed: 1741818384
+8192 MB RAM detected; reserving 4096 MB for main workspace.
+1651507 variants loaded from .bim file.
+1495 people (0 males, 0 females, 1495 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to pGWAS/finemap_results/LD_matrix.nosex .
+--extract: 9 variants remaining.
+Using up to 8 threads (change this with --threads).
+Before main variant filters, 1495 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is exactly 1.
+9 variants and 1495 people pass filters and QC.
+Note: No phenotypes present.
+--r2 square gz to pGWAS/finemap_results/LD_matrix.ld.gz ... done.
+
+End time: Wed Mar 12 15:26:24 2025

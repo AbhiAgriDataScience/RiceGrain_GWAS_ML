@@ -1,0 +1,4 @@
+z;pGWAS/finemap_results/finemap_z.txt
+ld;pGWAS/finemap_results/LD_matrix.ld.gz
+snp;pGWAS/finemap_results/finemap_snps.txt
+n;1495
